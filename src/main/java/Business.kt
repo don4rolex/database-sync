@@ -4,7 +4,7 @@ import java.sql.SQLException
 /**
  * @author andrew
  */
-class Business {
+class Sync {
 
   fun syncDatabaseTables(serverCon: Connection, localCon: Connection) {
     try {
